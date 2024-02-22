@@ -16,23 +16,6 @@ master_doc = "index"
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    "ablog",
-    "myst_nb",
-    "numpydoc",
-    "sphinx.ext.autodoc",
-    "sphinx.ext.intersphinx",
-    "sphinx.ext.viewcode",
-    "sphinxcontrib.youtube",
-    "sphinx_copybutton",
-    "sphinx_design",
-    "sphinx_examples",
-    "sphinx_tabs.tabs",
-    "sphinx_thebe",
-    "sphinx_togglebutton",
-    "sphinxcontrib.bibtex",
-    "sphinxext.opengraph",
-    # For the kitchen sink
-    "sphinx.ext.todo",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -82,18 +65,18 @@ html_copy_source = True
 html_favicon = "_static/logo-square.svg"
 html_last_updated_fmt = ""
 
-html_sidebars = {
-    "reference/blog/*": [
-        "navbar-logo.html",
-        "search-field.html",
-        "ablog/postcard.html",
-        "ablog/recentposts.html",
-        "ablog/tagcloud.html",
-        "ablog/categories.html",
-        "ablog/archives.html",
-        "sbt-sidebar-nav.html",
-    ]
-}
+#html_sidebars = {
+#    "reference/blog/*": [
+#        "navbar-logo.html",
+#        "search-field.html",
+#        "ablog/postcard.html",
+#        "ablog/recentposts.html",
+#        "ablog/tagcloud.html",
+#        "ablog/categories.html",
+#        "ablog/archives.html",
+#        "sbt-sidebar-nav.html",
+#    ]
+#}
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
